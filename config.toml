@@ -8,7 +8,7 @@ canonifyurls    = true
 
 [params]
   title       = "My awesome site on July 21"
-  subtitle    = "Port of Casper 2.x for Hugo"
+  subtitle    = "Super awesome"
   copyright   = "© 2018"
 
   cover       = "img/blog-cover.jpg"
