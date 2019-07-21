@@ -37,7 +37,7 @@ canonifyurls    = true
   authorWebsite = "https://eueung.github.io"
   authorDescription = "Your description here"
 
-  pageNotFoundTitle = "404 - Page not found"
+  pageNotFoundTitle = "404 - Page Not Found"
 
   #casper or caspertwo
   singleViewStyle = "casper"
