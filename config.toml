@@ -5,6 +5,7 @@ disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
+summaryLength = 20
 
 [params]
   title       = "My awesome site on July 21"
@@ -13,7 +14,7 @@ canonifyurls    = true
 
   cover       = "img/tienganh-lop12-unit13.jpg"
   description = "Here is a description of your site."
-  metaDescription = ""
+  metaDescription = "My awesome site"
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
@@ -31,8 +32,8 @@ canonifyurls    = true
 
   showSupport = true
 
-  author = "EM"
-  authorAvatar = "img/ghost-icon.png"
+  author = "Emmanuel Kingsta"
+  authorAvatar = "/img/arm-hand-milk-2575279.jpg"
   authorLocation = "Bandung, ID"
   authorWebsite = "https://eueung.github.io"
   authorDescription = "Your description here"
