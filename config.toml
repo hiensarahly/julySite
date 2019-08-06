@@ -1,10 +1,11 @@
-baseurl         = "/"
+baseurl         = "https://jul19.ga"
 theme           = "hugo-casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
+enableRobotsTXT = true
 summaryLength = 20
 
 [params]
@@ -32,7 +33,6 @@ summaryLength = 20
 
   showSupport = true
 
-  author = "Emmanuel Kingsta"
   authorAvatar = "/img/arm-hand-milk-2575279.jpg"
   authorLocation = "Bandung, ID"
   authorWebsite = "https://eueung.github.io"
