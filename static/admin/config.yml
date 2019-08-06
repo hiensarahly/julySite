@@ -2,15 +2,37 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "static/img/uploads"
-public_folder: "img/uploads"
+media_folder: "static/uploads"
+public_folder: "uploads"
 
 collections: 
-  - name: "myJulySite"
-    label: "July Site"
+  - name: "post"
+    label: "Post"
     folder: "content/post"
     create: true
     slug: "{{year}}-{{slug}}"
     fields: 
       - {label: "Title", name: "title", widget: "string", required: true}
-      
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "lifestyle"
+    label: "Lifestyle"
+    folder: "content/lifestyle"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "newstuff"
+    label: "New Stuff"
+    folder: "content/newstuff"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
